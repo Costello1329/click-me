@@ -1,0 +1,30 @@
+@import "../../static/colorScheme.scss";
+
+
+html {
+  font-family: 'PT Sans';
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url("../../assets/fonts/PTSans-Regular.ttf") format("opentype");
+}
+
+body {
+  margin: 0 !important;
+  background-color: $blueWhale;
+}
+
+#buttonWrapper {
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+#header {
+  color: $whiteSmoke;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: 0;
+}

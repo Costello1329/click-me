@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "es2015", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "downlevelIteration": true
+  },
+  "rules": {
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "variable-declaration-ignore-function",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ]
+  },
+  "include": ["../src"]
+}

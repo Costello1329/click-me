@@ -1,0 +1,30 @@
+@import "../../static/colorScheme.scss";
+
+
+.commonButton {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0px;
+  display: block;
+  outline: none;
+  border: none;
+  transition: color 0.1s;
+  text-transform: uppercase;
+  border-radius: 1px;
+  width: 320px;
+  height: 40px;
+  font-size: 18px;
+  background-color: $chestnut;
+  box-shadow: 0 2px 0 0 $rusticRed;
+  color: $whiteSmoke;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $fuzzyWuzzyBrown;
+  }
+
+  &:active {
+    transform: translate(0, 2px);
+    box-shadow: none;
+  }
+}

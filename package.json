@@ -1,0 +1,46 @@
+{
+  "name": "click-me",
+  "version": "1.0.0",
+  "description": "A simple SPA app with funny button that says 'click me'. Try to click on it :-)",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./config/webpack.dev.config.js --mode development",
+    "build": "npm run clean && webpack --config ./config/webpack.build.config.js --mode production",
+    "clean": "rm -rf ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Costello1329/click-me.git"
+  },
+  "author": "Konstantin Leladze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Costello1329/click-me/issues"
+  },
+  "homepage": "https://github.com/Costello1329/SyncPoller#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.1",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "@types/webpack": "^4.41.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^2.3.0",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.3",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
