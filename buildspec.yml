@@ -7,7 +7,7 @@ phases:
       - curl -sL https://deb.nodesource.com/setup_14.x | bash -
       - apt install -y nodejs
       - echo Installing npm...
-      - curl -L https://npmjs.org/install.sh | sudo sh
+      - curl -sL https://npmjs.org/install.sh | bash
   pre_build:
     commands:
       - echo Installing dependencies...
